@@ -1,16 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int integer, sum;
+    int integer1, integer2, sum;
     printf("Please enter your first integer: ");
-    scanf("%d", &integer);
-    sum = integer;
+    scanf("%d", &integer1);
     printf("Please enter your second integer: ");
-    scanf("%d", &integer);
-    sum = integer + sum;
-    printf("");
-    scanf("");
-    sum = integer + sum;
-    printf("Sum is %d\n", sum);
+    scanf("%d", &integer2);
+    sum = integer1 + integer2;
+    printf("Sum is %d.\n", sum);
     return 0;
 }
